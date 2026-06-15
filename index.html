@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar Consultas</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                Agendar Consultas
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-light ms-2" href="auth/login.php">
+                            Entrar
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold">
+                Sistema de Agendamento de Consultas
+            </h1>
+
+            <p class="lead">
+                Gerencie médicos, pacientes e consultas de forma simples e eficiente.
+            </p>
+
+            <a href="auth/login.php" class="btn btn-primary btn-lg">
+                Acessar Sistema
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-4">Sobre o Sistema</h2>
+
+            <p class="text-center">
+                Plataforma desenvolvida para facilitar o gerenciamento de consultas,
+                permitindo o controle de médicos, pacientes e agendas.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="bg-light py-5">
+        <div class="container">
+
+            <h2 class="text-center mb-5">Funcionalidades</h2>
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5>Médicos</h5>
+                            <p>Cadastro e gerenciamento completo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5>Pacientes</h5>
+                            <p>Controle de dados e histórico.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body text-center">
+                            <h5>Consultas</h5>
+                            <p>Agendamento rápido e organizado.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">
+            © 2026 Agendar Consultas - Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

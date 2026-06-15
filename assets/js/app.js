@@ -1,0 +1,1 @@
+console.log("Agendar Consultas iniciado.");
